@@ -1,5 +1,4 @@
 var number = function () {};
-
 number.prototype.log = function () {
     var tab =[];
     for(var i=1; i<=100; i++) {
@@ -23,7 +22,6 @@ even.prototype.log = function () {
 }
 
 exports.even = even;
-
 
 var odd = function () {};
 odd.prototype.log = function () {
