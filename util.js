@@ -22,8 +22,9 @@ even.prototype.log = function () {
 }
 
 exports.even = even;
-var odd = function () {};
 
+
+var odd = function () {};
 odd.prototype.log = function () {
     var tab2 =[];
     for(var i=0; i<=100; i++) {
