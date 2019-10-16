@@ -1,5 +1,5 @@
 
-var utils = require('./utils.js');
+var utils = require('./util.js');
 var number = new utils.number();
 console.log(number.log());
 
